@@ -1,0 +1,149 @@
+/*colors */
+/*grayish - #3b3834 */
+/*projects background-color #f5f4f2*/
+html, body {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Saira Semi Condensed", sans-serif;
+    background-color: #faf6f0;
+}
+
+
+/* -------------------------------------*/
+/* ------- REUSABLE COMPONENTS ----------*/
+/* -------------------------------------*/
+
+.title { 
+    margin: 0 auto 10px auto;
+    padding: 15px 0 4px 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.59);
+    font-size: 150%;
+    border-bottom: 2px solid orange;
+    width: 150px;
+}
+
+header {
+    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("lib/john-schnobrich-520019-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* -------------------------------------*/
+/* ----------- NAV BAR ---------------*/
+/* -------------------------------------*/
+
+.nav-btns li {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+}
+
+.nav-btns li a {
+    font-family: "Saira Semi Condensed", sans-serif;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+
+/* -------------------------------------*/
+/* --------- HERO SECTION -----------*/
+/* -------------------------------------*/
+
+.name {
+    padding-top: 10%;
+    padding-left: 4%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+
+
+/* -------------------------------------*/
+/* --------- ABOUT ME SECTION  -----------*/
+/* -------------------------------------*/
+
+.section-1 {
+    height: 575px;
+    background-color: #fff;
+    margin: 0;
+}
+
+div.bio {
+    margin: 10px auto 0 25%;
+    background-color: #faf6f0;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 160%;
+    text-align: justify;
+    min-width: 325px;
+}
+
+
+
+/* -------------------------------------*/
+/* --------- PROJECTS SECTION -----------*/
+/* -------------------------------------*/
+
+.section-2 {
+    height: 1200px;
+}
+
+.box {
+ 
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+
+
+/*--------------------------*/
+/*-----CONTACT FORM----- */
+/*----------------------------*/
+
+section.section-4 {
+    height: 75vh;
+    background-color: #3e3e3e;
+}
+
+/* FORM */
+
+.form {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    text-decoration: none;
+}
+
+.input-form {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+}
+
+.textarea-form {
+    height: 100px;
+    width: 100%;
+    margin-top: 2px;
+}
+
