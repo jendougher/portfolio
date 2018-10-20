@@ -1,0 +1,93 @@
+/*
+
+body {
+    margin: 0;
+    
+
+}
+*/
+
+/* ----------- NAV BAR ---------------*/
+
+.navbar {
+    background-color: rgb(0,0,0,0.0);
+    margin-top: -60px;
+}
+
+
+.navbar-nav {
+    margin-left: 59%;
+    
+}
+
+.nav-item {
+    width: 105px;
+    text-align: center;
+}
+/* -------------------------------------*/
+/* --------- HERO -----------*/
+/* -------------------------------------*/
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),url(lib/luke-chesser-49-unsplash.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+/*    background-color: gray;*/
+}
+
+#jumbo {
+    margin-bottom: 0;
+}
+
+.nav-btns li {
+    display: inline;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+
+.name {
+    padding-top: 8%;
+    padding-left: 4%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/* -------------------------------------*/
+/* --------- About Me -----------*/
+/* -------------------------------------*/
+
+.about-me {
+    height: 500px;
+    background-color: red;
+}
+
+.tools {
+    height: 500px;
+    background-color: gray;
+}
+.projects {
+    height: 500px;
+    background-color: red;
+}
+
+.contact {
+    height: 500px;
+    background-color: blue;
+}
+
+
+/* -------------------------------------*/
+/* --------- PROJECTS -----------*/
+/* -------------------------------------*/
+
+.projects {
+    background-color: antiquewhite;
+    
+}
