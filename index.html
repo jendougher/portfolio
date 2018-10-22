@@ -2,10 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Jen Dougher's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="https://jendougher.github.io/portfolio/index.css">
+    <title>Jen Dougher || Front End Web Developer </title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/vendors/grid.css">
+      
+<!--      WHEN WORKING LOCALLY: -->
+<!--    <link rel="stylesheet" type="text/css" href="/vendors/grid.css">-->
+      
+<!--      WHEN SYNCING TO GITHUB -->
+    <link rel="stylesheet" type="text/css" href="https://jendougher.github.io/portfolio/index.css">
     </head>
   <body>
       
@@ -40,17 +45,66 @@
             </p>
           </div>
       </section>
+    
+      
+      <!-- EXPERIMENTAL RESPONSIVE DIV/GRID SECTION /// PROJECT SECTION  -->
+      
+      <div class="project-section">
+        <ul class="project-grid">
+            <li>
+                <div class="project-box project-img-1">
+                    <a href="#">
+                        <div class="project-info">
+                            <h3>Yelp Camp</h3>
+                            <p>Website with backend database, user authorization, login, comments, etc.</p>
+                        </div></a>
+                </div>
+            </li>
+            <li>
+                <div class="project-box project-img-1">
+                    <a href="#">
+                        <div class="project-info">
+                            <h3>Yelp Camp</h3>
+                            <p>Website with backend database, user authorization, login, comments, etc.</p>
+                        </div></a>
+                </div>
+            </li>
+            <li>
+                <div class="project-box project-img-1">
+                    <a href="#">
+                        <div class="project-info">
+                            <h3>Yelp Camp</h3>
+                            <p>Website with backend database, user authorization, login, comments, etc.</p>
+                        </div></a>
+                </div>
+            </li>
+            <li>
+                <div class="project-box project-img-1">
+                    <a href="#">
+                        <div class="project-info">
+                            <h3>Yelp Camp</h3>
+                            <p>Website with backend database, user authorization, login, comments, etc.</p>
+                        </div></a>
+                </div>
+            </li>
+          </ul>
+      </div>
+      
+      
+      
+      
+      
       
       <!-- PROJECTS SECTION -->
-      <section class="section section-2">
+      <div class="section section-2">
           <div class="title">
             Projects
           </div>
           <div class="row">
-             <div class="col span-1-of-2 box" >
+             <div class="col span-1-of-2 box" id="box">
                  <a href="https://enigmatic-island-92884.herokuapp.com/"><img src="lib/yelpCamp.jpg" alt="omniFood Project"></a>
             </div>
-            <div class="col span-1-of-2 box">
+            <div class="col span-1-of-2 box" id="box">
                 <a href="projects/omniFood/index.html"><img src="lib/omniFood.jpg"></a>
             </div>
           </div>
@@ -62,8 +116,8 @@
                 <a href="projects/patatapclone/circles.html"><img src="lib/musicgame.jpg"></a>
             </div>
           </div>
-      </section>
-      
+      </div>
+         
       <!-- CONTACT SECTION -->
       <section class="section section-4">
           <div class="title">
@@ -78,6 +132,8 @@
               </form>
           </div>
       </section>
+      
+      
       
   </body>
 </html>
