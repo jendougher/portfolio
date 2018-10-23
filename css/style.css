@@ -24,7 +24,7 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("lib/john-schnobrich-520019-unsplash.jpg");
+    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/john-schnobrich-520019-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -156,8 +156,23 @@ div.bio {
 }
 
 .project-img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(lib/yelpCamp.jpg);
-background-size: auto 460px 
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/yelpCamp.jpg);
+background-size: auto 460px;
+}
+
+.project-img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/Omnifood.jpg);
+background-size: auto 460px;
+}
+
+.project-img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/Colorgame.jpg);
+background-size: auto 460px;
+}
+
+.project-img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/Musicgame.jpg);
+background-size: auto 460px;
 }
 
 .project-info {
@@ -180,27 +195,6 @@ background-size: auto 460px
     margin: 0 30px;
     font-size: 14px;
     line-height: 2;
-}
-
-
-/* -------------------------------------*/
-/* --------- PROJECTS SECTION -----------*/
-/* -------------------------------------*/
-
-/*OKAY, ASSIGING MULTIPLE ID'S TO IMAGES IN GRID IS THE ONLY WAY I WAS ABLE TO OVERRIDE
-THE STYLING ON THESE IMAGES/DIVS SO THAT THE HEIGHT OF THE DIVS WERE THE SAME, EVEN THOUGH
-THE HEIGHT OF THE ORIGINAL IMAGE WAS DIFFERENT. */
-
-#box {
-    margin: 0;
-    height: 200px;
-    width: 50%;
-    overflow: hidden;
-}
-
-.box img {
-    width: 100%;
-    margin-top: 15px;
 }
 
 /*--------------------------*/
