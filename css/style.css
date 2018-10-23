@@ -92,8 +92,8 @@ div.bio {
     min-width: 325px;
 }
 
-/*--------------------------*/
-/*----- Projects Section experiment (from scratch) ----- */
+/*----------------------------*/
+/*---- Projects Section ----- */
 /*----------------------------*/
 /*  <div class="project-section">
         <ul class="project-grid">
@@ -107,7 +107,7 @@ div.bio {
 .project-section {
     max-width: 960px;
     margin: 0 auto;
-    padding: 6% 2%; 
+    padding: 0 2% 5% 2%; 
 }
 
 .project-grid {
@@ -163,16 +163,19 @@ background-size: auto 460px;
 .project-img-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/Omnifood.jpg);
 background-size: auto 460px;
+    background-position:
 }
 
 .project-img-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/Colorgame.jpg);
 background-size: auto 460px;
+    background-position: bottom;
 }
 
 .project-img-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/Musicgame.jpg);
 background-size: auto 460px;
+    background-position: bottom;
 }
 
 .project-info {
