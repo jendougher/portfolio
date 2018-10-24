@@ -1,5 +1,6 @@
 /*colors */
 /*gray-ish - #3b3834 */
+/*orange color: #d98b20 */
 /*projects background-color #f5f4f2*/
 html, body {
     margin: 0;
@@ -21,6 +22,7 @@ html, body {
     font-size: 2em;
     border-bottom: 2px solid #d98b20;
     width: 150px;
+    text-transform: uppercase;
 }
 
 header {
@@ -29,10 +31,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-}
-
-a {
-    text-decoration: none;
 }
 
 
@@ -99,6 +97,27 @@ a {
     padding: 4%;
     text-align: center;
     font-size: 1.5em;
+}
+
+.resume-link {
+    margin-left: 70%;
+    margin-top: -10%;
+    margin-bottom: 4%;
+}
+
+.resume-link a {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #d98b20;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.resume-link a:hover {
+    background-color: white;
+    color: #d98b20;
+    border: 1px solid #d98b20;
 }
 
 /*----------------------------
@@ -253,15 +272,12 @@ background-size: auto 460px;
 }
 
 .contact-section .title {
-    color: #f5f5ec;
-    
-        
+    color: #f5f5ec;      
 }
-
-/* FORM */
 
 .form {
     width: 75%;
+    max-width: 500px;
     margin: 20px auto;
     text-align: right;
 }
@@ -276,13 +292,23 @@ background-size: auto 460px;
 .textarea-form {
     height: 150px;
     width: 100%;
-/*    margin-top: 2px;*/
 }
 
-.btn-form {
-    
-    
+/*----------------------------*/
+/*--------- FOOTER ---------- */
+/*----------------------------*/
+
+
+.footer-section {
+/*    width: 100%;*/
+    text-align: center;
+    background-color: rgb(34, 33, 28);
+    height: 100px;
+    margin-top: 0;
 }
 
-
-
+.footer-section h4 {
+    color: #f5f5ec;
+    padding: 3%;
+    margin: 0;
+}
