@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<!--    ANIMATED MODAL LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+      
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Jen Dougher | Front End Web Developer </title>
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/vendors/grid.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    
 
     </head>
     
   <body>
+      
+<!--      ANIMATED MODAL -->
+         <!--Call your modal-->
+<!--    <a id="demo01" href="#animatedModal">DEMO01</a>-->
+
+    <!--DEMO01-->
+<!--    <div id="animatedModal">-->
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+<!--
+        <div class="close-animatedModal"> 
+            <img src="lib/yelpCamp.jpg">
+        </div>
+            
+        <div class="modal-content">
+                 lorem ipsum blah blah blah
+        </div>
+    </div>
+      
+      
+      
+-->
+      
+      
+      
       <!-- HERO SECTION -->
       <header>
           <nav>
               <div class="row">
                 <ul class="nav-btns">
-                    <li><a href="#">Contact Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Tools</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a class="js--scroll-to-form" href="#">Contact Me</a></li>
+                    <li><a class="js--scroll-to-projects" href="#">Projects</a></li>
+                    <li><a class="js--scroll-to-tools" href="#">Tools</a></li>
+                    <li><a class="js--scroll-to-about" href="#">About</a></li>
                 </ul>
               </div>
           </nav>
@@ -30,7 +58,7 @@
       </header>
 
       <!-- ABOUT ME SECTION -->
-      <div class="row">
+      <div class="row js--section-about">
           <h2 class="title">
            About Me
           </h2>
@@ -43,15 +71,12 @@
                   </p>
             </div>
           </div>
-          <div class="resume-link">
-             <a href="/resume.html">Downloadable Resumé</a>
-          </div>
       </div>
       
       
       <!-- TOOLBOX SECTION  -->
       
-      <section class="section-tools">
+      <section class="section-tools js--section-tools">
           <div class="row">
             <h2 class="title">
                 Tools I Use
@@ -75,7 +100,7 @@
       
       <!-- PROJECT SECTION  -->
       
-      <div class="project-section">
+      <div class="project-section js--section-projects">
           <h2 class="title">
            Projects
           </h2>
@@ -120,7 +145,7 @@
       </div>
          
       <!-- CONTACT SECTION -->
-      <section class="contact-section">
+      <section class="contact-section js--section-form">
           <div class="title">
             Contact Me
           </div>
@@ -136,11 +161,19 @@
       
       <footer>
         <div class="footer-section">
-          <h4>Designed by Jen Dougher - 2018&copy;</h4>
+          <h4>Designed by Jen Dougher &copy; 2018 </h4>
           </div>
       </footer>
       
-      
-      
+<!--ANIMATED MODAL JS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+      <script src="/js/animatedModal.js-master/animatedModal.min.js"></script>
+      <script src="/vendors/jquery.waypoints.min.js"></script>
+      <script src="js/portfolio.js"></script>
+<!--
+<script>
+  $("#demo01").animatedModal();
+</script>
+-->
   </body>
 </html>
