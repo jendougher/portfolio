@@ -84,7 +84,7 @@ header {
 /* -------------------------------------*/
 
 .name {
-    padding-top: 3%;
+    padding-top: 6%;
     padding-left: 4%;
     color: #ffffff;
     text-transform: uppercase;
@@ -286,24 +286,35 @@ background-size: auto 460px;
     max-width: 500px;
     margin: 20px auto;
     text-align: right;
-    
 }
 
 .input-form {
+    padding: 3px 10px;
+    color: #000;
+    font-family:inherit;
+    font-size: 1.2em;
     display: block;
     margin: 2% auto;
     width: 100%;
     height: 25px;
     border-radius: 5px;
-/*    background-color: gray;*/
-
+    background-color: rgb(216, 212, 190);
+    border: none;
 }
 
 .textarea-form {
+    padding: 3px 10px;
+    color: #000;
+    font-family:inherit;
+    font-size: 1.2em;
     height: 150px;
     width: 100%;
-        border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(216, 212, 190);
+}
 
+textarea:focus, input:focus{
+    outline: none;
 }
 
 /*----------------------------*/
