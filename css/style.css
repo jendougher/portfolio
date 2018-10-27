@@ -133,25 +133,21 @@ header {
     
 }
 
+
+
  .tools-list li {
-     margin: 2.5% 0% 2% 8%;
+     margin: 2% 4% 2% 4%;
      width: 120px;
      height: 120px;
-/*     border-radius: 5%;*/
-/*     border: 2px solid rgb(204, 201, 198);*/
-
-/*     height: auto;*/
-/*     display: inline-block;*/
-     float: left;
-/*     text-align: center;*/
+/*   float: left;*/
+     display: inline-block;
+     text-align: center;
      overflow: hidden;
 }
 
 .tools-list img {
-/*    object-fit: cover;*/
     max-height: 100%;
     max-width: 100%;
-    
 }
 
 
@@ -285,14 +281,24 @@ background-size: auto 460px;
     width: 75%;
     max-width: 500px;
     margin: 20px auto;
-    text-align: right;
+    text-align: center;
 }
+
+/*This resets all default submit input styling so button can be styled*/
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
 
 .input-form {
     padding: 3px 10px;
     color: #000;
     font-family:inherit;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    text-transform: uppercase;
     display: block;
     margin: 2% auto;
     width: 100%;
@@ -306,7 +312,8 @@ background-size: auto 460px;
     padding: 3px 10px;
     color: #000;
     font-family:inherit;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    text-transform: uppercase;
     height: 150px;
     width: 100%;
     border-radius: 5px;
@@ -317,6 +324,24 @@ textarea:focus, input:focus{
     outline: none;
 }
 
+
+.btn-form {
+    background-color: #000;
+    border: none;
+    border: 2px solid rgb(216, 212, 190);
+    font-family: inherit;
+    text-transform: uppercase;
+    width: 25%;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #d98b20;
+}
+
+.btn-form:hover {
+    border: 2px solid #d98b20;
+}
 /*----------------------------*/
 /*--------- FOOTER ---------- */
 /*----------------------------*/
