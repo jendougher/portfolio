@@ -67,12 +67,12 @@ header {
     padding: 7px 20px;
     border: 2px solid transparent;
     border-radius: 20px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav-btns a:hover {
     color: #d98b20;
-    border: 2px solid orange;
+    border: 2px solid #d98b20;
 
 }
 
@@ -155,14 +155,8 @@ header {
 /*----------------------------
 /*---- Projects Section ----- */
 /*----------------------------*/
-/*  <div class="project-section">
-        <ul class="project-grid">
-            <li>
-                <div class="project-box project-img-1">
-                    <p>img 1 goes here</p>
-                </div>
-            </li>
-            <li>*/
+
+/*-----General Layout Setup -----*/
 
 .project-section {
     max-width: 100%;
@@ -198,53 +192,13 @@ header {
     margin: 5px ;
 }
 
-.project-box  {
-    
-    width: 100%;
-    height: 100%;
-    position: relative;
-    cursor: pointer;
-    border-radius: 10px;
-    -webkit-transition: 0.3s ease-in-out, 
-    -webkit-transform 0.3s ease-in-out;
-	-moz-transition:  0.3s ease-in-out, 
-    -moz-transform 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out, 
-    transform 0.3s ease-in-out, ;
-}
-
-.project-box:hover {
-    transform: scale(1.05);
-    
-}
-
-.project-img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/yelpCamp.jpg);
-background-size: auto 460px;
-}
-
-.project-img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/omniFood.jpg);
-background-size: auto 460px;
-    background-position:
-}
-
-.project-img-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/colorgame.jpg);
-background-size: auto 460px;
-    background-position: bottom;
-}
-
-.project-img-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/musicgame.jpg);
-background-size: auto 460px;
-    background-position: bottom;
-}
-
 .project-info {
     position: absolute;
     width: inherit;
     height: inherit;
+    z-index: 1;
+    bottom: 15px;
+    transition: bottom .5s ease;
 }
 
 .project-info h3 {
@@ -261,6 +215,110 @@ background-size: auto 460px;
     margin: 0 30px;
     font-size: 14px;
     line-height: 2;
+}
+.project-box  {
+    width: 100%;
+    height: 100%;
+    position: relative;
+/*    cursor: pointer;*/
+    border-radius: 20px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+
+/* ---- Overlay ------*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgba (0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+.overlay-btns {
+    position: absolute;
+    width: 420px;
+    left: 0;
+    top: 210px;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity .3s ease;
+}
+
+.overlay-btns a {
+    width 200px;
+    padding: 12px 28px;
+    margin: 10px;
+/*    text-align: center;*/
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    z-index: 1;
+    text-decoration: none;
+    transition: color .3s, border .3s;
+}
+
+.overlay-btns a:hover {
+    border: 2px solid orange;
+    color: orange;
+}
+
+.overlay-btns span {
+    font-size: 5px;
+}
+
+/*-------Project box hover effects ------------*/
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-box:hover .project-info {
+    bottom: 35px;
+}
+
+.project-box:hover .overlay{
+    display: block;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.project-box:hover .overlay-btns {
+    opacity: 1;
+}
+
+/*----- Individual Project Boxes -------*/
+
+.project-img-1 {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/yelpCamp.jpg);
+background-size: auto 460px;
+}
+
+.project-img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/omnifoodreplace.png);
+background-size: 420px 420px;
+    background-position: right;
+}
+
+.project-img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/colorgame.jpg);
+background-size: auto 460px;
+    background-position: bottom;
+}
+
+.project-img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/musicgame.jpg);
+background-size: auto 460px;
+    background-position: bottom;
 }
 
 
@@ -279,7 +337,7 @@ background-size: auto 460px;
 
 .form {
     width: 75%;
-    max-width: 500px;
+    max-width: 520px;
     margin: 20px auto;
     text-align: center;
 }
@@ -298,13 +356,13 @@ input {
     color: #000;
     font-family:inherit;
     font-size: 1.3em;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     display: block;
     margin: 2% auto;
-    width: 100%;
+    width: 95%;
     height: 25px;
     border-radius: 5px;
-    background-color: rgb(216, 212, 190);
+    background-color: rgb(15, 14, 12);
     border: none;
 }
 
@@ -313,11 +371,11 @@ input {
     color: #000;
     font-family:inherit;
     font-size: 1.3em;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     height: 150px;
-    width: 100%;
+    width: 95%;
     border-radius: 5px;
-    background-color: rgb(216, 212, 190);
+    background-color: rgb(15, 14, 12);
 }
 
 textarea:focus, input:focus{
