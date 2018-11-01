@@ -1,42 +1,38 @@
 /*colors */
 /*gray-ish - #3b3834 */
-/*orange color: #d98b20 */
+/*orange color:  or #d9a053*/
 /*projects background-color #f5f4f2*/
 html, body {
     margin: 0;
     font-size: 15px;
+    font-weight: 300;
     font-family: "Saira Semi Condensed", sans-serif;
     background-color: #f5f5ec;
 }
 
-
 /* -------------------------------------*/
 /* ------- REUSABLE COMPONENTS ----------*/
 /* -------------------------------------*/
-
 .title { 
     margin: 0 auto 3% auto;
-    padding-top: 1%;
+    padding-top: 1.5%;
     text-align: center;
     color: rgba(0, 0, 0, 0.59);
     font-size: 2em;
     border-bottom: 3px solid transparent;
     width: 170px;
     text-transform: uppercase;
+    font-weight: 400;
 }
-
 
 .title:after {
   display:block;
   content: '';
-  border-bottom: solid 3px #d98b20;  
+  border-bottom: solid 3px #d9a053;  
   transform: scaleX(1);  
   transition: all 250ms ease-in;}
 
-
 .title:hover:after { transform: scaleX(0); }
-
-
 
 header {
     background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/john-schnobrich-520019-unsplash.jpg");
@@ -46,12 +42,25 @@ header {
     height: 100vh;
 }
 
+.overlay, .tools-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba (0, 0, 0, 0);
+    transition: background .3s ease;
+}
+
+.overlay {
+    border-radius: 20px;
+}
+
 
 
 /* -------------------------------------*/
 /* ----------- NAV BAR ---------------*/
 /* -------------------------------------*/
-
 .nav-btns li {
     display: inline-block;
     float: right;
@@ -71,49 +80,49 @@ header {
 }
 
 .nav-btns a:hover {
-    color: #d98b20;
-    border: 2px solid #d98b20;
-
+    color: #d9a053;
+    border: 2px solid #d9a053;
 }
-
-
-
 
 /* -------------------------------------*/
 /* --------- HERO SECTION -----------*/
 /* -------------------------------------*/
-
-.name {
-    padding-top: 6%;
-    padding-left: 4%;
+.name h1, .name h2 {
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-size: 1.75em;
+    font-weight: 500;
 }
 
+.name h1 {
+    font-size: 4.75em;
+    margin-left: 4%;
+    margin-top: 14%;
+    margin-bottom: 0; 
+}
 
-
-
+.name h2 {
+    margin-left: 8%;
+    font-size: 2em;
+    margin-top: 0;
+}
 
 /* -------------------------------------*/
 /* --------- ABOUT ME SECTION  -----------*/
 /* -------------------------------------*/
-
-
-
 .bio-box {
     margin: 4% 15% 9% 15%;
     width: 70%;
     background-color: #fff;
     border-radius: 20px;
-    line-height: 1.44;
-/*    border: 2px dashed #d9a053 ;*/
+    line-height: 1.6;
+    font-size: 1.07em;
+    border: 3px solid #d9a053 ;
 }
 
 .bio-box p {
-    padding: 4%;
+    padding: 2% 4%;
     text-align: center;
     font-size: 1.5em;
 }
@@ -121,26 +130,24 @@ header {
 /*----------------------------
 /*---- Tools I Use ----- */
 /*----------------------------*/
-
 .section-tools {
     background-color: white;
 }
 
 .tools-list {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    list-style: none; 
-    
+/*    list-style: none; */  
 }
 
 
-
  .tools-list li {
+     position: relative;
      margin: 2% 4% 2% 4%;
      width: 120px;
      height: 120px;
-/*   float: left;*/
-     display: inline-block;
+    float: left;
+/*     display: inline-block;*/
      text-align: center;
      overflow: hidden;
 }
@@ -150,6 +157,38 @@ header {
     max-width: 100%;
 }
 
+.tools-list .centered-img {
+    margin-top: 25px;
+}
+
+.tools-list li:hover .tools-overlay {
+    display: block;
+    width: 100%;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.overlay-tool-name, .overlay-tool-name-2 {
+    font-size: 1.8em;
+    color: #50350f;
+    position: absolute;
+    font-weight: 500;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .3s;
+}
+
+.tools-list li:hover .overlay-tool-name {
+    opacity: 1;
+    margin-bottom: 45px;
+}
+
+.tools-list li:hover .overlay-tool-name-2 {
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
 
 
 /*----------------------------
@@ -157,11 +196,12 @@ header {
 /*----------------------------*/
 
 /*-----General Layout Setup -----*/
-
 .project-section {
+/*
     max-width: 100%;
     margin: 0 auto;
-/*    padding: 0 2% 5% 2%; */
+*/
+    padding-bottom: 4%;
 }
 
 .project-grid {
@@ -171,8 +211,7 @@ header {
     display: block;
     text-align: center;
     max-width: 950px;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .project-grid:after {
@@ -194,6 +233,7 @@ header {
 
 .project-info {
     position: absolute;
+    letter-spacing: .6px;
     width: inherit;
     height: inherit;
     z-index: 1;
@@ -211,11 +251,12 @@ header {
 
 .project-info p {
     color: #fff;
-    padding: 4px 5px;
+/*    padding: 0 5px;*/
     margin: 0 30px;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.7;
 }
+
 .project-box  {
     width: 100%;
     height: 100%;
@@ -230,18 +271,12 @@ header {
     transform 0.3s ease-in-out, ;
 }
 
-
-/* ---- Overlay ------*/
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    background: rgba (0, 0, 0, 0);
-    transition: background 0.5s ease;
+.project-box h3 {
+    font-weight: 500;
 }
+
+/* ---- Project Box Overlay ------*/
+
 
 .overlay-btns {
     position: absolute;
@@ -296,11 +331,10 @@ header {
 }
 
 /*----- Individual Project Boxes -------*/
-
 .project-img-1 {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/yelpCamp.jpg);
-background-size: auto 460px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.20)), url(../lib/julian-bialowas-1969-unsplash.jpg);
+    background-size: 500px auto;   
 }
 
 .project-img-2 {
@@ -317,17 +351,21 @@ background-size: auto 460px;
 
 .project-img-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/musicgame.jpg);
-background-size: auto 460px;
-    background-position: bottom;
+background-size: auto 360px;
+    background-position: right;
 }
 
+.project-img-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/john-schnobrich-520019-unsplash.jpg);
+background-size: auto 370px;
+    background-position: top;
+}
 
 /*--------------------------*/
 /*-----CONTACT FORM----- */
 /*----------------------------*/
-
 .contact-section {
-    height: 75vh;
+    height: 65vh;
     background-color: #2a2924;
 }
 
@@ -347,13 +385,20 @@ input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    
 }
 
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(15, 14, 12) inset;
+}
 
+input:-webkit-autofill {
+    -webkit-text-fill-color: #f5f5ec;
+}
 
 .input-form {
     padding: 3px 10px;
-    color: #000;
+    color: #f5f5ec;
     font-family:inherit;
     font-size: 1.3em;
 /*    text-transform: uppercase;*/
@@ -368,13 +413,14 @@ input {
 
 .textarea-form {
     padding: 3px 10px;
-    color: #000;
+    color: #f5f5ec;
     font-family:inherit;
     font-size: 1.3em;
 /*    text-transform: uppercase;*/
     height: 150px;
     width: 95%;
     border-radius: 5px;
+    border: none;
     background-color: rgb(15, 14, 12);
 }
 
@@ -382,10 +428,8 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-
 .btn-form {
     background-color: #000;
-    border: none;
     border: 2px solid rgb(216, 212, 190);
     font-family: inherit;
     text-transform: uppercase;
@@ -395,16 +439,18 @@ textarea:focus, input:focus{
     font-size: 20px;
     border-radius: 5px;
     color: #d98b20;
+    transition: .3s;
 }
 
 .btn-form:hover {
+    transform: scale(1.1);
     border: 2px solid #d98b20;
+    
 }
+
 /*----------------------------*/
 /*--------- FOOTER ---------- */
 /*----------------------------*/
-
-
 .footer-section {
 /*    width: 100%;*/
     text-align: center;
@@ -414,7 +460,9 @@ textarea:focus, input:focus{
 }
 
 .footer-section h4 {
+    font-weight: 300;
     color: #f5f5ec;
     padding: 3%;
     margin: 0;
 }
+
