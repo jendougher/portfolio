@@ -2,10 +2,28 @@
 /*gray-ish - #3b3834 */
 /*orange color:  or #d9a053*/
 /*projects background-color #f5f4f2*/
+
+/*
+Lato 
+Raleway 
+Roboto 
+Montserrat
+Titillium Web -- very very close to saira semi condensed. but i like saira more. 
+Caveat Brush
+Caveat 
+East Sea Dokdo
+Gochi Hand
+Just Another Hand
+Mali
+Nanum Pen Script
+Permanent Marker
+*/
+
 html, body {
     margin: 0;
     font-size: 15px;
     font-weight: 300;
+/*    font-family: "Saira Semi Condensed", sans-serif;*/
     font-family: "Saira Semi Condensed", sans-serif;
     background-color: #f5f5ec;
 }
@@ -68,7 +86,7 @@ header {
 }
 
 .nav-btns a {
-    font-family: "Saira Semi Condensed", sans-serif;
+/*    font-family: "Saira Semi Condensed", sans-serif;*/
     color: white;
     text-decoration: none;
     letter-spacing: 4px;
@@ -88,43 +106,85 @@ header {
 /* --------- HERO SECTION -----------*/
 /* -------------------------------------*/
 .name h1, .name h2 {
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-family: 'Saira Semi Condensed', sans-serif;
-    font-weight: 500;
+    color: #f5f5ec;
+/*    text-transform: uppercase;*/
+    
+/*    font-family: 'Saira Semi Condensed', sans-serif;*/
+/*    font-weight: 300;*/
 }
 
+/*
+Lato 
+Raleway 
+Roboto 
+Montserrat
+Titillium Web -- like saira, but i like saira a bit more  
+Caveat Brush
+Caveat -- too slanty
+Just Another Hand -- too bubbly/girly
+Nanum Pen Script -- a bit too childish
+Permanent Marker
+*/
 .name h1 {
-    font-size: 4.75em;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: "Caveat Brush", sans-serif;
+    font-weight: 500;
+    font-size: 7em;
     margin-left: 4%;
     margin-top: 14%;
     margin-bottom: 0; 
 }
 
 .name h2 {
+/*    font-family: "Caveat", sans-serif;*/
+    font-weight: 300;
+    letter-spacing: 4px;
     margin-left: 8%;
-    font-size: 2em;
-    margin-top: 0;
+    font-size: 1.9em;
+    margin-top: -18px;
 }
 
 /* -------------------------------------*/
 /* --------- ABOUT ME SECTION  -----------*/
 /* -------------------------------------*/
+.photo-box img {
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 30%;
+    border:5px solid #d9a053;
+}
+
 .bio-box {
-    margin: 4% 15% 9% 15%;
+    margin: 4% 0% 9% 26%;
     width: 70%;
-    background-color: #fff;
+    background-color: white;
     border-radius: 20px;
-    line-height: 1.6;
+/*    line-height: 1.6;*/
     font-size: 1.07em;
-    border: 3px solid #d9a053 ;
+    border: 5px solid #d9a053 ;
 }
 
 .bio-box p {
-    padding: 2% 4%;
+    padding: 20px;
     text-align: center;
     font-size: 1.5em;
+    margin: 0;
+}
+
+.instagram {
+    line-height: 5;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #d98616;
+    padding: 10px;
+    color: white;
+}
+
+.instagram:hover {
+     background-color: #ba6b00;
 }
 
 /*----------------------------
