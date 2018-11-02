@@ -2,6 +2,7 @@
 /*gray-ish - #3b3834 */
 /*orange color:  or #d9a053*/
 /*projects background-color #f5f4f2*/
+/*#f5f5ec html/body background color */
 
 /*
 Lato 
@@ -19,6 +20,12 @@ Nanum Pen Script
 Permanent Marker
 */
 
+/*
+* {
+    padding: 0;
+    margin: 0;
+}
+*/
 html, body {
     margin: 0;
     font-size: 15px;
@@ -36,9 +43,14 @@ html, body {
     padding-top: 1.5%;
     text-align: center;
     color: rgba(0, 0, 0, 0.59);
-    font-size: 2em;
+    font-size: 2.2em;
+/*
+    font-family: "Caveat Brush";
+    letter-spacing: 2px;
+    font-style:italic;
+*/
     border-bottom: 3px solid transparent;
-    width: 170px;
+    width: 200px;
     text-transform: uppercase;
     font-weight: 400;
 }
@@ -148,27 +160,34 @@ Permanent Marker
 /* -------------------------------------*/
 /* --------- ABOUT ME SECTION  -----------*/
 /* -------------------------------------*/
+
+.about-box {
+/*    width: 100%;    */
+}
 .photo-box img {
-    width: 300px;
     float: left;
-    margin-left: 30px;
-    margin-top: 15px;
-    border-radius: 30%;
+    width: 25%;
+    min-width: 200px;
+    margin-left: 60px;
+    margin-top: 35px;
+    border-radius: 20%;
     border:5px solid #d9a053;
 }
 
 .bio-box {
     margin: 4% 0% 9% 26%;
-    width: 70%;
-    background-color: white;
-    border-radius: 20px;
+    width: 65%;
+    padding-left: 50px;
+/*    background-color: white;*/
+/*    border-radius: 20px;*/
 /*    line-height: 1.6;*/
     font-size: 1.07em;
-    border: 5px solid #d9a053 ;
+/*    border: 5px solid #d9a053 ;*/
 }
 
 .bio-box p {
     padding: 20px;
+/*    width: 50%;*/
     text-align: center;
     font-size: 1.5em;
     margin: 0;
@@ -187,13 +206,13 @@ Permanent Marker
      background-color: #ba6b00;
 }
 
-.fa-long-arrow-alt-right, .fa-instagram {
+.bio-box .fa-long-arrow-alt-right, .bio-box .fa-instagram {
     font-size: 1.4em;
     vertical-align:middle;
     height: 35px;
 }
 
-.fa-instagram {
+.bio-box .fa-instagram {
     font-size: 1.7em;
     height: 45px;
     padding-left: 3px;
@@ -207,9 +226,8 @@ Permanent Marker
 }
 
 .tools-list {
-    width: 100%;
-    margin: 0 auto;
-/*    list-style: none; */  
+    width: 70%;
+    margin-left: 20%;
 }
 
 
@@ -434,8 +452,10 @@ background-size: auto 370px;
 /*-----CONTACT FORM----- */
 /*----------------------------*/
 .contact-section {
-    height: 65vh;
+    height: 500px;
     background-color: #2a2924;
+    
+    
 }
 
 .contact-section .title {
@@ -443,8 +463,8 @@ background-size: auto 370px;
 }
 
 .form {
-    width: 75%;
-    max-width: 520px;
+    width: 50%;
+/*    max-width: 720px;*/
     margin: 20px auto;
     text-align: center;
 }
@@ -470,7 +490,6 @@ input:-webkit-autofill {
     color: #f5f5ec;
     font-family:inherit;
     font-size: 1.3em;
-/*    text-transform: uppercase;*/
     display: block;
     margin: 2% auto;
     width: 95%;
@@ -485,8 +504,7 @@ input:-webkit-autofill {
     color: #f5f5ec;
     font-family:inherit;
     font-size: 1.3em;
-/*    text-transform: uppercase;*/
-    height: 150px;
+    height: 180px;
     width: 95%;
     border-radius: 5px;
     border: none;
@@ -520,30 +538,37 @@ textarea:focus, input:focus{
 /*----------------------------*/
 /*--------- FOOTER ---------- */
 /*----------------------------*/
+
 .footer-section {
-/*    width: 100%;*/
-    text-align: center;
-    background-color: rgb(34, 33, 28);
+    background-color: rgb(15, 14, 12);
     height: 100px;
-    margin-top: 0;
+    color: white;
 }
 
-.footer-section h4 {
-    position: absolute;
+.designed-by {
     width: 50%;
-    font-weight: 300;
-    color: #f5f5ec;
     margin-left: 25%;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
 }
 
-/*
-.social-links-box {
-    width: 200px;
+.footer-section li {
+  
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
 }
-*/
+
 .social-links {
-/*    position: relative;*/
-    float: right;
-/*    width: 200px;*/
-    /*    margin: 0;
+    padding-top: 10px;
+    text-align: right;
 }
+
+.social-links i {
+    font-size: 1.8em;
+}
+
+.social-links a { color: #c4c4c4;}
+
+.social-links a:hover { color: white;}
