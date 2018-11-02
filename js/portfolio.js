@@ -23,8 +23,51 @@ $('.js--scroll-to-form').click(function () {
     
     
     
-    
+   
+  $('.js--wp-2').waypoint(function(direction) {
+       $('.js--wp-2').addClass('animated fadeInUp');
+    }, {
+        offset: '50%' 
+    });
 
+
+   
+  $('.js--wp-3').waypoint(function(direction) {
+       $('.js--wp-3').addClass('animated fadeIn');
+    }, {
+        offset: '50%' 
+    });
+
+
+   
+  $('.js--wp-3').waypoint(function(direction) {
+       $('.js--wp-4').addClass('animated fadeIn');
+    }, {
+        offset: '50%' 
+    });
+
+
+   
+  $('.js--wp-3').waypoint(function(direction) {
+       $('.js--wp-5').addClass('animated fadeIn');
+    }, {
+        offset: '50%' 
+    });
+
+
+   
+  $('.js--wp-3').waypoint(function(direction) {
+       $('.js--wp-6').addClass('animated fadeIn');
+    }, {
+        offset: '50%' 
+    });
+
+   
+  $('.js--wp-3').waypoint(function(direction) {
+       $('.js--wp-7').addClass('animated fadeIn');
+    }, {
+        offset: '50%' 
+    });
 
 
 

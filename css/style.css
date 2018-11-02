@@ -572,3 +572,66 @@ textarea:focus, input:focus{
 .social-links a { color: #c4c4c4;}
 
 .social-links a:hover { color: white;}
+
+
+/* ---------------------------------*/
+/* ------For vanilla HTML Animations ------------*/
+/* ---------------------------------*/
+.name h1{
+  animation-duration: 1s;
+  animation-delay: 1s;
+/*  animation-iteration-count: infinite;*/
+}
+
+.name h2{
+  animation-duration: 1s;
+  animation-delay: 1.25s;
+/*  animation-iteration-count: infinite;*/
+}
+
+.project-img-1 .js {
+    
+}
+
+
+
+
+/* ---------------------------------*/
+/* ------For JS Animations ------------*/
+/* ---------------------------------*/
+
+.js--wp-2 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.js--wp-3 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: .5s;
+}
+.js--wp-4 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: .75s;
+}
+.js--wp-5 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+.js--wp-6 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: 1.25s;
+}
+.js--wp-7 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-delay: 1.50s;
+}
