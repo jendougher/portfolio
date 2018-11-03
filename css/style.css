@@ -118,7 +118,7 @@ header {
 /* --------- HERO SECTION -----------*/
 /* -------------------------------------*/
 .name h1, .name h2 {
-    color: #f5f5ec;
+    color: rgba(245, 245, 236, 0.83);
 /*    text-transform: uppercase;*/
     
 /*    font-family: 'Saira Semi Condensed', sans-serif;*/
