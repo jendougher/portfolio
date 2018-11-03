@@ -221,13 +221,18 @@ Permanent Marker
 /*----------------------------
 /*---- Tools I Use ----- */
 /*----------------------------*/
-.section-tools {
+.tools-parent-div {
     background-color: white;
+    width: 100%;
+}
+.section-tools {
+    background-color: transparent;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .tools-list {
-    width: 70%;
-    margin-left: 20%;
+    width: 100%;
 }
 
 
@@ -542,15 +547,15 @@ textarea:focus, input:focus{
 .footer-section {
     background-color: rgb(15, 14, 12);
     height: 100px;
-    color: white;
 }
 
-.designed-by {
+.designed-by h4 {
     width: 50%;
     margin-left: 25%;
-    margin-top: 10px;
     text-align: center;
     float: left;
+    color: white;
+    font-weight: normal;
 }
 
 .footer-section li {
@@ -589,18 +594,12 @@ textarea:focus, input:focus{
 /*  animation-iteration-count: infinite;*/
 }
 
-.project-img-1 .js {
-    
-}
-
-
-
 
 /* ---------------------------------*/
 /* ------For JS Animations ------------*/
 /* ---------------------------------*/
 
-.js--wp-2 {
+.js--wp-1 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -609,29 +608,34 @@ textarea:focus, input:focus{
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    animation-delay: .5s;
 }
 .js--wp-4 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    animation-delay: .75s;
+    animation-delay: .15s;
 }
 .js--wp-5 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: .30s;
 }
 .js--wp-6 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    animation-delay: 1.25s;
+    animation-delay: .45s;
 }
 .js--wp-7 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    animation-delay: 1.50s;
+    animation-delay: .60s;
+}
+.js--wp-form {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    
 }

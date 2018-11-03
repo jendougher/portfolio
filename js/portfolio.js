@@ -21,11 +21,11 @@ $('.js--scroll-to-form').click(function () {
     
     
     
-    
+    // Animations on scroll //
     
    
-  $('.js--wp-2').waypoint(function(direction) {
-       $('.js--wp-2').addClass('animated fadeInUp');
+  $('.js--wp-1').waypoint(function(direction) {
+       $('.js--wp-1').addClass('animated fadeInUp');
     }, {
         offset: '50%' 
     });
@@ -65,6 +65,13 @@ $('.js--scroll-to-form').click(function () {
    
   $('.js--wp-3').waypoint(function(direction) {
        $('.js--wp-7').addClass('animated fadeIn');
+    }, {
+        offset: '50%' 
+    });
+
+
+  $('.js--section-form').waypoint(function(direction) {
+       $('.js--wp-form').addClass('animated bounceIn');
     }, {
         offset: '50%' 
     });
