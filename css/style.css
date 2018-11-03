@@ -167,7 +167,7 @@ Permanent Marker
 .photo-box img {
     float: left;
     width: 25%;
-    min-width: 200px;
+/*    min-width: 40%;*/
     margin-left: 60px;
     margin-top: 35px;
     border-radius: 20%;
@@ -193,6 +193,7 @@ Permanent Marker
     margin: 0;
 }
 
+/*
 .instagram {
     line-height: 5;
     text-decoration: none;
@@ -205,6 +206,8 @@ Permanent Marker
 .instagram:hover {
      background-color: #ba6b00;
 }
+*/
+/*
 
 .bio-box .fa-long-arrow-alt-right, .bio-box .fa-instagram {
     font-size: 1.4em;
@@ -218,6 +221,7 @@ Permanent Marker
     padding-left: 3px;
 
 }
+*/
 /*----------------------------
 /*---- Tools I Use ----- */
 /*----------------------------*/
@@ -558,6 +562,10 @@ textarea:focus, input:focus{
     font-weight: normal;
 }
 
+
+.footer-section {
+    
+}
 .footer-section li {
   
     display: inline;

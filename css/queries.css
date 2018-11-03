@@ -35,15 +35,20 @@
     
     .name {
         margin-top: 30%;
-        font-size: 0.84em }
+        font-size: 0.80em;
+    }
     
-    .name h1 { line-height: .9; }
+    .name h1 { line-height: .9; margin-top: -20px; }
     
     .name h2 { margin-top: 0; }
     
+    .photo-box {
+        width: 100%;
+    }
+    
     .photo-box img {
-        margin-left: 25%;
-        width: 50%;
+       width: 50%;
+       margin-left: 25%;
     }
     
     .bio-box {
@@ -56,15 +61,26 @@
     
     .section-tools {width: 100%;}
     
-    .project-grid li { 
-        width: 98%;
-        margin: auto;
+    .project-grid li {
+    width: 90%;
+/*    height: 328px;*/
+/*    margin: 0;*/
+        
     }
     
     .form { width: 94%;}
     
-}
 
+    .footer-section li {
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    .social-links i {
+        font-size: 1.4em;
+        
+}
 
 
 /* Small phones: from 0 to 480px */
