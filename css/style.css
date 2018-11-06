@@ -165,7 +165,7 @@ Permanent Marker
     width: 90%;
     margin: 0 auto;  
 }
-.photo-box img {
+.about-box img {
     float: left;
     width: 25%;
 /*    min-width: 40%;*/
@@ -184,7 +184,7 @@ Permanent Marker
     font-size: 1.07em;
 }
 
-.bio-box p {
+.about-box p {
     width: 100%;
     text-align: center;
     font-size: 1.4em;
@@ -228,19 +228,19 @@ Permanent Marker
 }
 .section-tools {
     background-color: transparent;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .tools-list {
-/*    width: 100%;*/
+    width: 100%;
 }
 
 
  .tools-list li {
      position: relative;
      margin: 2% 4% 2% 4%;
-     width: 17%;
+     width: 120px;
      height: 120px;
     float: left;
 /*     display: inline-block;*/
@@ -401,7 +401,7 @@ Permanent Marker
 }
 
 .overlay-btns span {
-/*    font-size: 5px;*/
+    font-size: 5px;
 }
 
 /*-------Project box hover effects ------------*/

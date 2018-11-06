@@ -59,13 +59,21 @@
         font-size: .98em;
     }
     
-    .section-tools {width: 80%;}
+    .section-tools {
+        width: 80%;
+    }
     
+    .tools-list {
+        width: 100%;
+        margin: 0;
+        
+    }
     .tools-list li {
          margin: 0 auto;
          padding: 10px 10px;
          width: 40%;
     }
+    
     
     .project-grid li {
 /*    width: 90%;*/
@@ -91,9 +99,9 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    .name h1 { font-size: 7.4em; }
+    .name h1 { font-size: 7em; }
     
-    .name h2 { margin-top: 0; }
+/*    .name h2 { margin-top: 0; }*/
     
     .about-box {
         width: 100%;
@@ -117,16 +125,41 @@
     
     
     .overlay-btns {
-        left: -11%;
-        top: 210px;
-        text-align: center;
+        left: -16%;
+        top: 190px;
+/*        text-align: center;*/
         
     }
     .overlay-btns a {
-        margin: 0 auto;
+/*        margin: 0 auto;*/
+    }
+    
+    .section-tools {
+        width: 80%;
+    }
+    
+    .section-tools li {
+    }
+    
+    .tools-list {
+        margin-left: -10%;
+    }
+    
+    .tools-list li {
+         margin: 0 auto;
+         padding: 10px;
+    }
+
+    .overlay-tool-name, .overlay-tool-name-2 {
+    font-size: 1.5em;
+    margin-left: -10%;
+        width: 100%;
+}
+    
+    .project-info h3 {
+        padding-top: 19%
     }
     
     
-
     
-}
+    }
