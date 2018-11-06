@@ -165,7 +165,7 @@ Permanent Marker
     width: 90%;
     margin: 0 auto;  
 }
-.about-box img {
+.photo-box img {
     float: left;
     width: 25%;
 /*    min-width: 40%;*/
@@ -184,7 +184,7 @@ Permanent Marker
     font-size: 1.07em;
 }
 
-.about-box p {
+.bio-box p {
     width: 100%;
     text-align: center;
     font-size: 1.4em;
