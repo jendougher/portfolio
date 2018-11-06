@@ -85,5 +85,42 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    .name h1 { font-size: 7.4em; }
+    
+    .name h2 { margin-top: 0; }
+    
+    .about-box {
+        width: 100%;
+    }
+    
+    .about-box img {
+    width: 60%;
+    margin-left: 20%;
+    }
+    
+    .bio-box {
+        width: 95%;
+        padding-top: 1%
+    }
+    
+    
+    .project-grid li {
+    width: 350px;
+    height: 300px;
+    }
+    
+    
+    .overlay-btns {
+        left: -11%;
+        top: 210px;
+        text-align: center;
+        
+    }
+    .overlay-btns a {
+        margin: 0 auto;
+    }
+    
+    
+
     
 }

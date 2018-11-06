@@ -162,13 +162,14 @@ Permanent Marker
 /* -------------------------------------*/
 
 .about-box {
-/*    width: 100%;    */
+    width: 90%;
+    margin: 0 auto;  
 }
-.photo-box img {
+.about-box img {
     float: left;
     width: 25%;
 /*    min-width: 40%;*/
-    margin-left: 14%;
+    margin: 2% 0 0 8%;
 /*
     margin-left: 60px;
     margin-top: 35px;
@@ -178,24 +179,15 @@ Permanent Marker
 }
 
 .bio-box {
-    clear: both; /* just temporary*/
-    margin: 0 auto;/* just temporary*/
-/*    margin: 4% 0% 9% 26%;*//* ungray it*/
-    width: 65%;
-    padding-left: 50px;
-/*    background-color: white;*/
-/*    border-radius: 20px;*/
-/*    line-height: 1.6;*/
+    margin: 4% 0% 9% 35%;
+    width: 55%;
     font-size: 1.07em;
-/*    border: 5px solid #d9a053 ;*/
 }
 
-.bio-box p {
-    padding: 20px;
-/*    width: 50%;*/
+.about-box p {
+    width: 100%;
     text-align: center;
-    font-size: 1.5em;
-    margin: 0;
+    font-size: 1.4em;
 }
 
 /*
@@ -236,19 +228,19 @@ Permanent Marker
 }
 .section-tools {
     background-color: transparent;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .tools-list {
-    width: 100%;
+/*    width: 100%;*/
 }
 
 
  .tools-list li {
      position: relative;
      margin: 2% 4% 2% 4%;
-     width: 120px;
+     width: 17%;
      height: 120px;
     float: left;
 /*     display: inline-block;*/
@@ -409,7 +401,7 @@ Permanent Marker
 }
 
 .overlay-btns span {
-    font-size: 5px;
+/*    font-size: 5px;*/
 }
 
 /*-------Project box hover effects ------------*/
