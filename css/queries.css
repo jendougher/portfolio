@@ -1,34 +1,66 @@
 
 
-/* Big tablets to 1200px */
+/* Big tablets from 1023 to 1200px */
 @media only screen and (max-width: 1200px) {
     
+    .tools-list {
+        height: 400px;
+        padding: 0
+    }
     
+    .tools-list li {
+        margin: 0 auto;
+        padding: 1%;
+        width: 23%;
+    }
 }
-
 
 
 /* Small tablets to big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
    
-    
+    .form {
+        width: 60%;
+    }
 }
-
-
-
 
 /* Small phones to small tablets: from 591 - 767px */
 @media only screen and (max-width: 767px) {
     
+    .nav-btns {
+        width: 100%;
+        padding: 0;
+    }
+    .nav-btns a {
+        font-size: 1.3em;
+        padding-right: 0;
+    }
+    
+     .name h1  {  line-height: .8; }
+    
+    .name h2 { margin-top: 10px; }
+    
+      .photo-box img {
+       width: 50%;
+       margin-left: 25%;
+    }
+    
+      .bio-box {
+        margin: 0;
+        padding-top: 1px;
+        width: 100%;
+        clear: both;
+    }
+    
+    .section-tools { width: 90%; }
+    
+    .form { width: 90%;}
 }
-
-
-
 
 /* Small phones to small tablets : from 481 to 590px */
 @media only screen and (max-width: 590px) {
     
-    .nav-btns a{
+    .nav-btns a {
         font-size: 1.07em;
         padding: 1px;
     }
@@ -41,10 +73,6 @@
     .name h1 { line-height: .9; margin-top: -20px; }
     
     .name h2 { margin-top: 0; }
-    
-    .photo-box {
-/*        width: 100%;*/
-    }
     
     .photo-box img {
        width: 50%;
@@ -59,36 +87,21 @@
         font-size: .98em;
     }
     
-    .section-tools {
-        width: 80%;
-    }
+    .section-tools { width: 80%; }
     
-    .tools-list {
-        width: 100%;
-        margin: 0;
-        
-    }
+    #left-padding-remove { padding-left: 0; } /* Had to use an ID to remove padding on the tools-list ul for some reason */
+    
     .tools-list li {
          margin: 0 auto;
-         padding: 10px 10px;
-         width: 40%;
-    }
-    
-    
-    .project-grid li {
-/*    width: 90%;*/
-/*    height: 328px;*/
-/*    margin: 0;*/
-        
+         padding: 1%;
+         width: 48%;
     }
     
     .form { width: 94%;}
-    
 
     .footer-section li {
         display: block;
         margin-bottom: 10px;
-
     }
 
     .social-links i {
@@ -99,13 +112,10 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    .name h1 { font-size: 7em; }
     
-/*    .name h2 { margin-top: 0; }*/
+    .name h1 { font-size: 6.5em; }
     
-    .about-box {
-        width: 100%;
-    }
+    .about-box { width: 100%; }
     
     .about-box img {
     width: 60%;
@@ -116,50 +126,30 @@
         width: 95%;
         padding-top: 1%
     }
-    
 
     .project-grid li {
     width: 320px;
     height: 250px;
     }
     
-    
     .overlay-btns {
         left: -16%;
         top: 190px;
-/*        text-align: center;*/
-        
-    }
-    .overlay-btns a {
-/*        margin: 0 auto;*/
     }
     
-    .section-tools {
-        width: 80%;
-    }
-    
-    .section-tools li {
-    }
-    
-    .tools-list {
-        margin-left: -10%;
-    }
+    .section-tools { width: 80%; }
     
     .tools-list li {
          margin: 0 auto;
-         padding: 10px;
+        padding-bottom: 10px;
     }
 
     .overlay-tool-name, .overlay-tool-name-2 {
     font-size: 1.5em;
     margin-left: -10%;
         width: 100%;
+    }
+    
+    .project-info h3 { padding-top: 19%; }
+    
 }
-    
-    .project-info h3 {
-        padding-top: 19%
-    }
-    
-    
-    
-    }
