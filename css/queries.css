@@ -13,12 +13,51 @@
         padding: 1%;
         width: 23%;
     }
+    
+    .overlay-tool-name {
+/*        width: 0%;*/
+/*        margin-left: 10%;*/
+        width: 90%;
+    }
+    
+    .overlay-tool-name-2 {
+/*        width: 0%;*/
+/*        margin-left: 10%;*/
+        width: 90%;
+/*        margin-bottom: -20px;*/
+    }
+    
+    .tools-list li:hover .overlay-tool-name-2 {
+/*    margin-bottom: 50px;*/
+    }
+    
 }
 
 
 /* Small tablets to big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-   
+    
+    .instagram  {
+        font-size: .9em;
+    }
+    
+    .tools-list li:hover .overlay-tool-name-2 {
+    margin-bottom: 20px;
+    }
+    
+    .overlay-tool-name {
+        width: 80%;
+        font-size: 1.6em;
+        margin-left: 6%;
+
+    }
+    
+    .overlay-tool-name-2 {
+        width: 90%;
+        font-size: 1.6em;
+    }
+    
+
     .form {
         width: 60%;
     }
@@ -52,7 +91,25 @@
         clear: both;
     }
     
+    
+    .instagram  {
+        font-size: 1em;
+    }
+
+    
     .section-tools { width: 90%; }
+    
+    .overlay-tool-name {
+        width: 83%;
+     text-align: center;
+
+    }
+    
+    .overlay-tool-name-2 {
+        width: 90%;
+    }
+    
+    
     
     .form { width: 90%;}
 }
@@ -113,7 +170,17 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     
+    .nav-btns {
+        visibility: hidden;
+    }
+    
     .name h1 { font-size: 6.5em; }
+    
+    .name h2 { 
+        font-size: 1.7em; 
+        width: 80%;
+        margin-top: 5px;
+    }
     
     .about-box { width: 100%; }
     
@@ -126,6 +193,10 @@
         width: 95%;
         padding-top: 1%
     }
+    
+     .instagram  {
+        font-size: .85em;
+    }
 
     .project-grid li {
     width: 320px;
@@ -137,6 +208,7 @@
         top: 190px;
     }
     
+    
     .section-tools { width: 80%; }
     
     .tools-list li {
@@ -144,12 +216,17 @@
         padding-bottom: 10px;
     }
 
-    .overlay-tool-name, .overlay-tool-name-2 {
-    font-size: 1.5em;
-    margin-left: -10%;
-        width: 100%;
+    .overlay-tool-name-2 {
+        margin-left: 3%;
     }
     
     .project-info h3 { padding-top: 19%; }
+    
+    .project-img-3 { background-position: center bottom -39px;}
+    
+    .designed-by h4 {
+        width: 55%;
+        margin-left: 22.5%;
+    }
     
 }

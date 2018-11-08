@@ -114,6 +114,15 @@ header {
     border: 2px solid #d9a053;
 }
 
+
+/* -------------------------------------*/
+/* ----------- STICKY NAV BAR -----------*/
+/* -------------------------------------*/
+
+
+
+
+
 /* -------------------------------------*/
 /* --------- HERO SECTION -----------*/
 /* -------------------------------------*/
@@ -192,7 +201,6 @@ Permanent Marker
     font-size: 1.4em;
 }
 
-/*
 .instagram {
     line-height: 5;
     text-decoration: none;
@@ -205,9 +213,8 @@ Permanent Marker
 .instagram:hover {
      background-color: #ba6b00;
 }
-*/
-/*
 
+/*
 .bio-box .fa-long-arrow-alt-right, .bio-box .fa-instagram {
     font-size: 1.4em;
     vertical-align:middle;
@@ -221,6 +228,7 @@ Permanent Marker
 
 }
 */
+
 /*----------------------------
 /*---- Tools I Use ----- */
 /*----------------------------*/
@@ -268,6 +276,7 @@ Permanent Marker
 
 .overlay-tool-name, .overlay-tool-name-2 {
     font-size: 1.8em;
+/*    text-align: center;*/
     color: #50350f;
     position: absolute;
     font-weight: 500;
