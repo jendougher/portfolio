@@ -26,3 +26,5 @@ h1 {
     letter-spacing: 1.5px;
     font-style: italic;
 }
+
+.sm-txt { font-size: .6em; }

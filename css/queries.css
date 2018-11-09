@@ -171,10 +171,18 @@
 @media only screen and (max-width: 480px) {
     
     .nav-btns {
-        visibility: hidden;
+        width: 95%;
+        font-size: .81em;
+        margin: 10px auto 0 auto;
+/*        float: right;*/
+/*        visibility: hidden;*/
     }
     
-    .name h1 { font-size: 6.5em; }
+    .nav-btns a {
+        padding: 5px;
+    }
+    
+    .name h1 { font-size: 6.5em; margin-top: -10%; }
     
     .name h2 { 
         font-size: 1.7em; 
@@ -225,8 +233,10 @@
     .project-img-3 { background-position: center bottom -39px;}
     
     .designed-by h4 {
-        width: 65%;
-        margin-left: 22.5%;
+        width: 100%;
+        position: absolute;
+        margin: 9% 0 0 0;
+/*        margin-left: 22.5%;*/
     }
     
 }
