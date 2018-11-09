@@ -116,36 +116,11 @@ header {
 
 
 /* -------------------------------------*/
-/* ----------- STICKY NAV BAR -----------*/
-/* -------------------------------------*/
-
-
-
-
-
-/* -------------------------------------*/
 /* --------- HERO SECTION -----------*/
 /* -------------------------------------*/
-.name h1, .name h2 {
-    color: rgba(245, 245, 236, 0.83);
-/*    text-transform: uppercase;*/
-    
-/*    font-family: 'Saira Semi Condensed', sans-serif;*/
-/*    font-weight: 300;*/
-}
+.name h1, .name h2 { color: rgba(245, 245, 236, 0.83); }
 
-/*
-Lato 
-Raleway 
-Roboto 
-Montserrat
-Titillium Web -- like saira, but i like saira a bit more  
-Caveat Brush
-Caveat -- too slanty
-Just Another Hand -- too bubbly/girly
-Nanum Pen Script -- a bit too childish
-Permanent Marker
-*/
+
 .name h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
