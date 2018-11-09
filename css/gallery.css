@@ -1,6 +1,9 @@
+body, html {
+    margin: 0;
+}
 
 .clearfix {
-    border: 2px solid black;
+/*    border: 2px solid black;*/
 }
 .clearfix::after { 
    content: " ";
@@ -21,27 +24,38 @@ h2 {
     float:left;
 }
 
-.drawings-parent {
-    width: 90%;
-    margin: 0 auto;
+/* GRID OF IMAGES */
+
+.grid {
+/*    width: 100%;*/
+    border: 1px solid black;
 }
 
-
-.drawings li {
-    margin: 7px;
-    width: 200px;
-    height: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    list-style: none;
-    float: left;
-    overflow: hidden;
+.grid-ul { /* Use this in media queries to make grid responsive yet keeping images square!*/
+    width: 654px; /* Use this in media queries to make grid responsive yet keeping images square!*/
+    margin: 0 auto;
+    padding: 0;
     
 }
 
-.drawings img {
-/*    width: auto;*/
-    height:  160%;
-/*    margin-left: -10%;*/
-/*    margin-top: -10%;*/
+.grid-ul li {
+    float: left;
+    list-style: none;
+    width: 150px; /* Use this in media queries to make grid responsive yet keeping images square!  adjusting thing in conjunction with .grid-ul width is key! the ul must be snug with this li in order for it to properly center*/
+    height: 150px;
+    overflow: hidden;
+    margin: 1%;
+    border-radius: 10%;
+}
 
+
+.illustrations-ul img {
+    width: 150%;
+    margin-left: -20%;
+    margin-top: -10%;
+}
+
+.photos-ul img {
+    width: 100%;
+    
 }

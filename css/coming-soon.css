@@ -1,0 +1,28 @@
+
+
+
+body, html {
+    height: 100vh;
+    margin: 0;  
+}
+
+body {
+    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/gallery/photos/photos-38.jpg");
+    background-position:center;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.bg-img {
+    width: 90%;
+    margin: 11% auto 0 auto;
+}
+
+h1 {
+    color: rgba(252, 252, 252, 0.82);
+    text-align: center;
+    font-size: 3em;
+    font-family: "Caveat";
+    letter-spacing: 1.5px;
+    font-style: italic;
+}
