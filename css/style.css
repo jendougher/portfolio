@@ -65,7 +65,7 @@ html, body {
 .title:hover:after { transform: scaleX(0); }
 
 header {
-    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/john-schnobrich-520019-unsplash.jpg");
+    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/john-schnobrich-520019-unsplash-min.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -437,7 +437,7 @@ Permanent Marker
 /*----- Individual Project Boxes -------*/
 .project-img-1 {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.20)), url(../lib/julian-bialowas-1969-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.20)), url(../lib/julian-bialowas-1969-unsplash-min.jpg);
     background-size: 500px auto;   
 }
 
@@ -460,7 +460,7 @@ background-size: auto 360px;
 }
 
 .project-img-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/john-schnobrich-520019-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/john-schnobrich-520019-unsplash-min.jpg);
 background-size: auto 370px;
     background-position: top;
 }
