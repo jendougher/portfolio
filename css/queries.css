@@ -171,15 +171,17 @@
 @media only screen and (max-width: 480px) {
     
     .nav-btns {
-        width: 95%;
+        width: 100%;
         font-size: .81em;
         margin: 10px auto 0 auto;
         z-index: 5;
+        
     }
     
     .nav-btns a {
         padding: 5px;
         z-index: 5;
+        
     }
     
     .name h1 { font-size: 6.5em; margin-top: -10%; }
