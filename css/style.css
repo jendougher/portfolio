@@ -4,33 +4,10 @@
 /*projects background-color #f5f4f2*/
 /*#f5f5ec html/body background color */
 
-/*
-Lato 
-Raleway 
-Roboto 
-Montserrat
-Titillium Web -- very very close to saira semi condensed. but i like saira more. 
-Caveat Brush
-Caveat 
-East Sea Dokdo
-Gochi Hand
-Just Another Hand
-Mali
-Nanum Pen Script
-Permanent Marker
-*/
-
-/*
-* {
-    padding: 0;
-    margin: 0;
-}
-*/
 html, body {
     margin: 0;
     font-size: 15px;
     font-weight: 300;
-/*    font-family: "Saira Semi Condensed", sans-serif;*/
     font-family: "Saira Semi Condensed", sans-serif;
     background-color: #f5f5ec;
 }
@@ -44,11 +21,6 @@ html, body {
     text-align: center;
     color: rgba(0, 0, 0, 0.59);
     font-size: 2.2em;
-/*
-    font-family: "Caveat Brush";
-    letter-spacing: 2px;
-    font-style:italic;
-*/
     border-bottom: 3px solid transparent;
     width: 200px;
     text-transform: uppercase;
@@ -56,11 +28,11 @@ html, body {
 }
 
 .title:after {
-  display:block;
-  content: '';
-  border-bottom: solid 3px #d9a053;  
-  transform: scaleX(1);  
-  transition: all 250ms ease-in;}
+    display:block;
+    content: '';
+    border-bottom: solid 3px #d9a053;  
+    transform: scaleX(1);  
+    transition: all 250ms ease-in;}
 
 .title:hover:after { transform: scaleX(0); }
 
@@ -82,10 +54,18 @@ header {
     transition: background .3s ease;
 }
 
-.overlay {
-    border-radius: 20px;
+.overlay { border-radius: 20px; }
+
+.link {
+    color: #bf7613;
+    text-decoration: none;
+    border-bottom: 2px solid #e69e3d;
 }
 
+.link:hover {
+    color: #000000;
+    border-bottom: none;
+}
 
 
 /* -------------------------------------*/
@@ -98,7 +78,6 @@ header {
 }
 
 .nav-btns a {
-/*    font-family: "Saira Semi Condensed", sans-serif;*/
     color: white;
     text-decoration: none;
     letter-spacing: 4px;
@@ -133,7 +112,6 @@ header {
 }
 
 .name h2 {
-/*    font-family: "Caveat", sans-serif;*/
     font-weight: 300;
     letter-spacing: 4px;
     margin-left: 8%;
@@ -141,10 +119,10 @@ header {
     margin-top: -18px;
 }
 
+
 /* -------------------------------------*/
 /* --------- ABOUT ME SECTION  -----------*/
 /* -------------------------------------*/
-
 .about-box {
     width: 90%;
     margin: 0 auto;  
@@ -152,21 +130,17 @@ header {
 .about-box img {
     float: left;
     width: 25%;
-/*    min-width: 40%;*/
     margin: 2% 0 0 8%;
     max-width: 350px;
-/*
-    margin-left: 60px;
-    margin-top: 35px;
-*/
     border-radius: 50%;
     border:5px solid #d9a053;
 }
 
 .bio-box {
+    padding-left: 2%;
     margin: 4% 0% 9% 35%;
     width: 55%;
-/*    max-width: 850px;*/
+    max-width: 850px;
     font-size: 1.07em;
 }
 
@@ -174,6 +148,7 @@ header {
     width: 100%;
     text-align: center;
     font-size: 1.4em;
+    text-align:justify;
 }
 
 .instagram {
@@ -185,24 +160,14 @@ header {
     color: white;
 }
 
-.instagram:hover {
-     background-color: #ba6b00;
+.instagram:hover { background-color: #ba6b00; }
+
+.resume {
+    font-size: 1.3em;
+    margin-left: 30%;
+    letter-spacing: .5px;
 }
 
-/*
-.bio-box .fa-long-arrow-alt-right, .bio-box .fa-instagram {
-    font-size: 1.4em;
-    vertical-align:middle;
-    height: 35px;
-}
-
-.bio-box .fa-instagram {
-    font-size: 1.7em;
-    height: 45px;
-    padding-left: 3px;
-
-}
-*/
 
 /*----------------------------
 /*---- Tools I Use ----- */
@@ -217,18 +182,14 @@ header {
     margin: 0 auto;
 }
 
-.tools-list {
-    width: 100%;
-}
-
+.tools-list { width: 100%; }
 
  .tools-list li {
      position: relative;
      margin: 2% 4% 2% 4%;
      width: 120px;
      height: 120px;
-    float: left;
-/*     display: inline-block;*/
+     float: left;
      text-align: center;
      overflow: hidden;
 }
@@ -251,7 +212,6 @@ header {
 
 .overlay-tool-name, .overlay-tool-name-2 {
     font-size: 1.8em;
-/*    text-align: center;*/
     color: #50350f;
     position: absolute;
     font-weight: 500;
@@ -270,7 +230,6 @@ header {
     opacity: 1;
     margin-bottom: 20px;
 }
-
 
 
 /*----------------------------
@@ -293,9 +252,7 @@ header {
     width: 100%;
 }
 
-.project-grid:after {
-    clear: both;
-}
+.project-grid:after { clear: both; }
 
 .project-grid:after, 
 .project-grid:before {
@@ -330,7 +287,6 @@ header {
 
 .project-info p {
     color: #fff;
-/*    padding: 0 5px;*/
     margin: 0 30px;
     font-size: 14px;
     line-height: 1.7;
@@ -340,7 +296,6 @@ header {
     width: 100%;
     height: 100%;
     position: relative;
-/*    cursor: pointer;*/
     border-radius: 20px;
     -webkit-transition: 0.3s ease-in-out, 
     -webkit-transform 0.3s ease-in-out;
@@ -350,13 +305,9 @@ header {
     transform 0.3s ease-in-out, ;
 }
 
-.project-box h3 {
-    font-weight: 500;
-}
+.project-box h3 { font-weight: 500; }
 
 /* ---- Project Box Overlay ------*/
-
-
 .overlay-btns {
     position: absolute;
     width: 420px;
@@ -372,7 +323,6 @@ header {
     width 200px;
     padding: 12px 28px;
     margin: 10px;
-/*    text-align: center;*/
     color: white;
     border: 2px solid white;
     border-radius: 15px;
@@ -386,18 +336,12 @@ header {
     color: orange;
 }
 
-.overlay-btns span {
-    font-size: 5px;
-}
+.overlay-btns span { font-size: 5px; }
 
 /*-------Project box hover effects ------------*/
-.project-box:hover {
-    transform: scale(1.05);
-}
+.project-box:hover { transform: scale(1.05); }
 
-.project-box:hover .project-info {
-    bottom: 35px;
-}
+.project-box:hover .project-info { bottom: 35px; }
 
 .project-box:hover .overlay{
     display: block;
@@ -405,9 +349,7 @@ header {
     background: rgba(0, 0, 0, .6);
 }
 
-.project-box:hover .overlay-btns {
-    opacity: 1;
-}
+.project-box:hover .overlay-btns { opacity: 1; }
 
 /*----- Individual Project Boxes -------*/
 .project-img-1 {
@@ -418,27 +360,28 @@ header {
 
 .project-img-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/omnifoodreplace.jpg);
-background-size: 420px 420px;
+    background-size: 420px 420px;
     background-position: right;
 }
 
 .project-img-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/colorgame.jpg);
-background-size: auto 460px;
+    background-size: auto 460px;
     background-position: bottom;
 }
 
 .project-img-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/musicgame.jpg);
-background-size: auto 360px;
+    background-size: auto 360px;
     background-position: right;
 }
 
 .project-img-5 {
     background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url(../lib/john-schnobrich-520019-unsplash-min.jpg);
-background-size: auto 370px;
+    background-size: auto 370px;
     background-position: top;
 }
+
 
 /*--------------------------*/
 /*-----CONTACT FORM----- */
@@ -462,16 +405,11 @@ input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    
 }
 
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px rgb(15, 14, 12) inset;
-}
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px rgb(15, 14, 12) inset; }
 
-input:-webkit-autofill {
-    -webkit-text-fill-color: #f5f5ec;
-}
+input:-webkit-autofill { -webkit-text-fill-color: #f5f5ec; }
 
 .input-form {
     padding: 3px 10px;
@@ -499,9 +437,7 @@ input:-webkit-autofill {
     background-color: rgb(15, 14, 12);
 }
 
-textarea:focus, input:focus{
-    outline: none;
-}
+textarea:focus, input:focus { outline: none; }
 
 .btn-form {
     background-color: #000;
@@ -520,13 +456,12 @@ textarea:focus, input:focus{
 .btn-form:hover {
     transform: scale(1.1);
     border: 2px solid #d98b20;
-    
 }
+
 
 /*----------------------------*/
 /*--------- FOOTER ---------- */
 /*----------------------------*/
-
 .footer-section {
     background-color: rgb(15, 14, 12);
     height: 100px;
@@ -542,11 +477,9 @@ textarea:focus, input:focus{
 }
 
 
-.footer-section {
-    
-}
+.footer-section { height: 100%; }
+
 .footer-section li {
-  
     display: inline;
     list-style: none;
     padding-right: 20px;
@@ -557,13 +490,11 @@ textarea:focus, input:focus{
     text-align: right;
 }
 
-.social-links i {
-    font-size: 1.8em;
-}
+.social-links i { font-size: 1.8em; }
 
-.social-links a { color: #c4c4c4;}
+.social-links a { color: #c4c4c4; }
 
-.social-links a:hover { color: white;}
+.social-links a:hover { color: white; }
 
 
 /* ---------------------------------*/
@@ -572,13 +503,11 @@ textarea:focus, input:focus{
 .name h1{
   animation-duration: 1s;
   animation-delay: 1s;
-/*  animation-iteration-count: infinite;*/
 }
 
 .name h2{
   animation-duration: 1s;
   animation-delay: 1.25s;
-/*  animation-iteration-count: infinite;*/
 }
 
 

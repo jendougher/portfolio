@@ -14,53 +14,31 @@
         width: 23%;
     }
     
-    .overlay-tool-name {
-/*        width: 0%;*/
-/*        margin-left: 10%;*/
-        width: 90%;
-    }
+    .overlay-tool-name { width: 90%; }
     
-    .overlay-tool-name-2 {
-/*        width: 0%;*/
-/*        margin-left: 10%;*/
-        width: 90%;
-/*        margin-bottom: -20px;*/
-    }
-    
-    .tools-list li:hover .overlay-tool-name-2 {
-/*    margin-bottom: 50px;*/
-    }
-    
+    .overlay-tool-name-2 { width: 90%; }
 }
 
 
 /* Small tablets to big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     
-    .instagram  {
-        font-size: .9em;
-    }
+    .instagram  { font-size: .9em; }
     
-    .tools-list li:hover .overlay-tool-name-2 {
-    margin-bottom: 20px;
-    }
+    .tools-list li:hover .overlay-tool-name-2 { margin-bottom: 20px; }
     
     .overlay-tool-name {
         width: 80%;
         font-size: 1.6em;
         margin-left: 6%;
-
     }
     
     .overlay-tool-name-2 {
         width: 90%;
         font-size: 1.6em;
     }
-    
 
-    .form {
-        width: 60%;
-    }
+    .form { width: 60%; }
 }
 
 /* Small phones to small tablets: from 591 - 767px */
@@ -75,41 +53,32 @@
         padding-right: 0;
     }
     
-     .name h1  {  line-height: .8; }
+    .name h1 {  line-height: .8; }
     
     .name h2 { margin-top: 10px; }
     
-      .photo-box img {
+    .photo-box img {
        width: 50%;
        margin-left: 25%;
     }
     
-      .bio-box {
+    .bio-box {
         margin: 0;
         padding-top: 1px;
         width: 100%;
         clear: both;
     }
-    
-    
-    .instagram  {
-        font-size: 1em;
-    }
+        
+    .instagram  { font-size: 1em; }
 
-    
     .section-tools { width: 90%; }
     
     .overlay-tool-name {
         width: 83%;
-     text-align: center;
-
+        text-align: center;
     }
     
-    .overlay-tool-name-2 {
-        width: 90%;
-    }
-    
-    
+    .overlay-tool-name-2 { width: 90%; }
     
     .form { width: 90%;}
 }
@@ -163,7 +132,6 @@
 
     .social-links i {
         font-size: 1.4em;
-        
 }
 
 
@@ -175,13 +143,11 @@
         font-size: .81em;
         margin: 10px auto 0 auto;
         z-index: 5;
-        
     }
     
     .nav-btns a {
         padding: 5px;
         z-index: 5;
-        
     }
     
     .name h1 { font-size: 6.5em; margin-top: -10%; }
@@ -195,8 +161,8 @@
     .about-box { width: 100%; }
     
     .about-box img {
-    width: 60%;
-    margin-left: 20%;
+        width: 60%;
+        margin-left: 20%;
     }
     
     .bio-box {
@@ -209,8 +175,8 @@
     }
 
     .project-grid li {
-    width: 320px;
-    height: 250px;
+        width: 320px;
+        height: 250px;
     }
     
     .overlay-btns {
@@ -218,17 +184,14 @@
         top: 190px;
     }
     
-    
     .section-tools { width: 80%; }
     
     .tools-list li {
-         margin: 0 auto;
+        margin: 0 auto;
         padding-bottom: 10px;
     }
 
-    .overlay-tool-name-2 {
-        margin-left: 3%;
-    }
+    .overlay-tool-name-2 { margin-left: 3%; }
     
     .project-info h3 { padding-top: 19%; }
     
@@ -238,7 +201,6 @@
         width: 100%;
         position: absolute;
         margin: 9% 0 0 0;
-/*        margin-left: 22.5%;*/
     }
     
 }
