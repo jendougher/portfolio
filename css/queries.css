@@ -147,9 +147,7 @@
         margin: 50px 0 0 0;
     }
 
-.social-links i {
-        color: orange;
-    }
+
     
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
@@ -217,10 +215,6 @@
     .project-info h3 { padding-top: 19%; }
     
     .project-img-3 { background-position: center bottom -39px;}
-    
-    .social-links i {
-        color: orange;
-    }
     
    
 }
