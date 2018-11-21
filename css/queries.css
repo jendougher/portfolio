@@ -166,12 +166,17 @@
     }
     
     .bio-box {
-        width: 95%;
+        width: 90%;
         padding-top: 1%
     }
     
-     .instagram  {
+     .instagram {
         font-size: .85em;
+    }
+    
+    .resume {
+        margin: 0 auto;
+        text-align: center;
     }
 
     .project-grid li {
@@ -196,6 +201,16 @@
     .project-info h3 { padding-top: 19%; }
     
     .project-img-3 { background-position: center bottom -39px;}
+    
+    
+    .footer-section li {
+        display: inline;
+    }
+
+    .social-links ul {
+        margin-top: 60px;
+        text-align: center;
+    }
     
     .designed-by h4 {
         width: 100%;

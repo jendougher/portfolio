@@ -15,6 +15,16 @@ html, body {
 /* -------------------------------------*/
 /* ------- REUSABLE COMPONENTS ----------*/
 /* -------------------------------------*/
+/*
+.clearfix:after {
+   content: " ";  Older browser do not support empty content 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+*/
+
 .title { 
     margin: 0 auto 3% auto;
     padding-top: 1.5%;
@@ -158,6 +168,7 @@ header {
     background-color: #d98616;
     padding: 10px;
     color: white;
+    
 }
 
 .instagram:hover { background-color: #ba6b00; }
