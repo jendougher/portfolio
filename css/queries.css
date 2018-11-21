@@ -133,6 +133,19 @@
     .social-links i {
         font-size: 1.4em;
 }
+    .social-links li { display: inline; }
+
+    .social-links ul {
+        padding-left: 4%;
+        margin-top: 10px;;
+        text-align: center;
+    }
+    
+    .designed-by h4 {
+        position: absolute;
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
 
 
 /* Small phones: from 0 to 480px */
@@ -202,18 +215,5 @@
     
     .project-img-3 { background-position: center bottom -39px;}
     
-    .social-links li { display: inline; }
-
-    .social-links ul {
-        padding-left: 4%;
-        margin-top: 2%;
-        text-align: center;
-    }
-    
-    .designed-by h4 {
-        position: absolute;
-        width: 100%;
-        margin: 12% 0 0 0;
-    }
-    
+   
 }
