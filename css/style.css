@@ -47,7 +47,7 @@ html, body {
 .title:hover:after { transform: scaleX(0); }
 
 header {
-    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/john-schnobrich-520019-unsplash-min.jpg");
+    background-image: linear-gradient(rgba(36, 36, 31, 0.69), rgba(69, 54, 54, 0.17)),url("../lib/john-schnobrich-unsplash-min.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -69,7 +69,6 @@ header {
 .link {
     color: #bf7613;
     text-decoration: none;
-    border-bottom: 2px solid #e69e3d;
 }
 
 .link:hover {
@@ -483,7 +482,7 @@ textarea:focus, input:focus { outline: none; }
     margin-left: 25%;
     text-align: center;
     float: left;
-    color: white;
+    color: rgba(255, 255, 255, 0.71);
     font-weight: normal;
 }
 
@@ -503,7 +502,7 @@ textarea:focus, input:focus { outline: none; }
 
 .social-links i { font-size: 1.8em; }
 
-.social-links a { color: #c4c4c4; }
+.social-links a { color: rgba(196, 196, 196, 0.55); }
 
 .social-links a:hover { color: white; }
 
